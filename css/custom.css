@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #810000d9;
+    color: white;
+    padding: 5rem;
+    border-radius: 35% 0;
+    box-shadow: 10px darkblue;
+    box-shadow: 4px 4px 7px 4px #300000fb,
+        -4px -4px 7px 4px #300000fb;
+}
+
+h1 {
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+p {
+    padding: 15px 0;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+del {
+    color: black;
+    font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+button {
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #ffff00;
+    background-color: #000000;
+    border: 5px solid #000000;
+    border-radius: 15px;
+}
+
+button:hover {
+    color: #000000;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+
+    .card {
+        width: 300px;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-radius: 25% 0;
+    }
+
+    h1 {
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    p {
+        padding: 15px 0;
+        font-size: 14px;
+    }
+
+    del {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
